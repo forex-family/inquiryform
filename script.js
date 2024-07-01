@@ -19,7 +19,7 @@ form.addEventListener('submit', (e) => {
  const address = document.getElementById('address').value;
 
   // Check if all fields are filled
-  if (!lastName || !firstName || !middleName  || !email || !phoneNumber) {
+  if (!lastName || !firstName || !email || !phoneNumber) {
     alert('Please fill all details');
     return;
   }
